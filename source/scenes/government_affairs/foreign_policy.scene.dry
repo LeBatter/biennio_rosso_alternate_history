@@ -13,7 +13,7 @@ Being in control of Foreign Policy, we can direct it to advance our policies, wh
 
 # foreign ministry stuff
 
-- @improve_balkan_ties: Establish diplomatic ties with our Yugoslav neighbour.
+- @improve_balkan_ties: Establish diplomatic ties with our Kingdom of Serbs, Croats, and Slovenes neighbour.
 - @improve_allied_relations: Improve ties with our european Entente allies.
 - @aid_entente: Send aid to the Entente allies.
 - @improve_american_relations: Improve ties with the United States.
@@ -44,7 +44,7 @@ We are able to send aid to the Red Army via our diplomatic channels, and the Sov
 @improve_balkan_ties
 on-arrival: balkan_relation += 1; foreign_invasion_time += 3 if violent_revolution
 
-We begin improving our relations with the newly established state of Yugoslavia, whom are naturally wary of us. [? if adriatic_timer > 0 : The Adriatic Question hangs over our relations, as well. ?]
+We begin improving our relations with the newly established Kingdom of Serbs, Croats, and Slovenes, whom are naturally wary of us. [? if adriatic_timer > 0 : The Adriatic Question hangs over our relations, as well. ?]
 
 @improve_allied_relations 
 on-arrival: entente_relation += 1; ldr_relation += 4*(1-dissent); ul_relation += 4*(1-dissent); ldr_right -= 0.1; ul_giolitti += 0.1; foreign_invasion_time += 3 if violent_revolution
